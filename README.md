@@ -38,4 +38,6 @@
 
 61 - Rotate List [:link:](https://leetcode.com/problems/rotate-list/) [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/61_solution.py)
 
-92. Reverse Linked List II [:link:](https://leetcode.com/problems/reverse-linked-list-ii/) **:warning: Important** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/92_solution.py)
+82 - Remove Duplicates from Sorted List II [:link:](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/82_solution.py)
+
+92 - Reverse Linked List II [:link:](https://leetcode.com/problems/reverse-linked-list-ii/) **:warning: Important** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/92_solution.py)
