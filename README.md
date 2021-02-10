@@ -40,4 +40,6 @@
 
 82 - Remove Duplicates from Sorted List II [:link:](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/82_solution.py)
 
+86 - Partition List [:link:](https://leetcode.com/problems/partition-list/) **:arrow_right: Two pointers approach**[Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/86_solution.py)
+
 92 - Reverse Linked List II [:link:](https://leetcode.com/problems/reverse-linked-list-ii/) **:warning: Important** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/92_solution.py)
