@@ -38,4 +38,4 @@
 
 61 - Rotate List [:link:](https://leetcode.com/problems/rotate-list/)
 
-92. Reverse Linked List II [:link:](https://leetcode.com/problems/reverse-linked-list-ii/) **:warning: Important**
+92. Reverse Linked List II [:link:](https://leetcode.com/problems/reverse-linked-list-ii/) **:warning: Important** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/92_Reverse_Linked_List_II.py)
