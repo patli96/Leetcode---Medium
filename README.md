@@ -17,6 +17,8 @@
 
 151 - Reverse Words in a String [:link:](https://leetcode.com/problems/reverse-words-in-a-string/)
 
+208 - Implement Trie (Prefix Tree) [:link:](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
 299 - Bulls and Cows [:link:](https://leetcode.com/problems/bulls-and-cows/)
 
 451 - Sort Characters by Frequency [:link:](https://leetcode.com/problems/sort-characters-by-frequency/)
@@ -30,4 +32,10 @@
 539 - Minimum Time Difference [:link:](https://leetcode.com/problems/minimum-time-difference/)
 
 553 - Optimal Division [:link:](https://leetcode.com/problems/optimal-division/) **:arrow_right: Obervation**
+
+
+## Linked List
+
+61 - Rotate List [:link:](https://leetcode.com/problems/rotate-list/)
+
 
