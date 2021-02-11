@@ -49,3 +49,6 @@
 142 - Linked List Cycle II [:link:](https://leetcode.com/problems/linked-list-cycle-ii/) **:arrow_right: Hash map** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/142_solution.py)
 
 143 - Reorder List [:link:](https://leetcode.com/problems/reorder-list/) **:arrow_right: Hash map and a little bit of maths** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/143_solution.py)
+
+
+## Tree
