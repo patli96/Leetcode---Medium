@@ -44,4 +44,4 @@
 
 92 - Reverse Linked List II [:link:](https://leetcode.com/problems/reverse-linked-list-ii/) **:warning: Important** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/92_solution.py)
 
-138 - Copy List with Random Pointer [:link:](https://leetcode.com/problems/copy-list-with-random-pointer/) **:arrow_right: Hash map and iteration** [Solution]((https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/138_solution.py))
+138 - Copy List with Random Pointer [:link:](https://leetcode.com/problems/copy-list-with-random-pointer/) **:arrow_right: Hash map and iteration** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/138_solution.py)
