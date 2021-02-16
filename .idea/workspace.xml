@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b8f62d-80e8-4af7-b54e-baab0aff775d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tree/654_solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/894_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,11 +72,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree/654_solution.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="8">
               <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tree/894_solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -118,6 +127,7 @@
         <option value="$PROJECT_DIR$/Linked_List/142_solution.py" />
         <option value="$PROJECT_DIR$/Linked_List/143_solution.py" />
         <option value="$PROJECT_DIR$/Tree/654_solution.py" />
+        <option value="$PROJECT_DIR$/Tree/894_solution.py" />
       </list>
     </option>
   </component>
@@ -257,15 +267,24 @@
       <option name="presentableId" value="Default" />
       <updated>1612943078080</updated>
       <workItem from="1612943084023" duration="3000" />
-      <workItem from="1612943112527" duration="6502000" />
+      <workItem from="1612943112527" duration="7961000" />
     </task>
+    <task id="LOCAL-00001" summary="Uploaded solutions">
+      <created>1613395478640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613395478641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6505000" />
+    <option name="totallyTimeSpent" value="7964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1440" height="872" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -292,6 +311,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Uploaded solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploaded solutions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/String/5_solution.py">
@@ -445,6 +468,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8">
           <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/894_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
