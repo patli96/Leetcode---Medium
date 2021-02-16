@@ -53,6 +53,6 @@
 
 ## Tree
 
-654 - Maximum Binary Tree [:link:](https://leetcode.com/problems/maximum-binary-tree/) **:arrow_right: Recursion** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/654_solution.py)
+654 - Maximum Binary Tree [:link:](https://leetcode.com/problems/maximum-binary-tree/) **:arrow_right: Recursion (*Tree Construction*)** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/654_solution.py)
 
-894 - All Possible Full Binary Trees [:link:](https://leetcode.com/problems/all-possible-full-binary-trees/) **:arrow_right: Memorization and recursion** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/894_solution.py)
+894 - All Possible Full Binary Trees [:link:](https://leetcode.com/problems/all-possible-full-binary-trees/) **:arrow_right: Memorization and recursion (*Tree Construction*)** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/894_solution.py)
