@@ -53,6 +53,10 @@
 
 ## Tree
 
+116 - Populating Next Right Pointers in Each Node [:link:](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) **(*Tree Modification*)**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/116_solution.py)
+
 654 - Maximum Binary Tree [:link:](https://leetcode.com/problems/maximum-binary-tree/) **:arrow_right: Recursion (*Tree Construction*)** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/654_solution.py)
 
 894 - All Possible Full Binary Trees [:link:](https://leetcode.com/problems/all-possible-full-binary-trees/) **:arrow_right: Memorization and recursion (*Tree Construction*)** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/894_solution.py)
+
+1008 - Construct Binary Search Tree from Preorder Traversal [:link:](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) **:arrow_right: Recursion (*Tree Construction*)** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/1008_solution.py)
