@@ -23,21 +23,21 @@ class Solution:
         return res
 ```
 
-For preorder traversal:
+For ***preorder traversal***:
 ```python
 stack.append((GRAY, node))
 stack.append((WHITE, node.right))
 stack.append((WHITE, node.left))
 ```
 
-For postorder traversal:
+For ***postorder traversal***:
 ```python
 stack.append((WHITE, node.right))
 stack.append((WHITE, node.left))
 stack.append((GRAY, node))
 ```
 
-## DFS
+### DFS
 
 Since usually there is no cycle in a tree, a DFS could be like:
 ```python
@@ -64,7 +64,7 @@ function dfs(root) {
 :warning: Sometimes it may require to detect cycles, a visited list may be needed.
 
 
-## BFS
+### BFS
 
 A common BFS algorithm of trees could be like:
 ```python
@@ -85,4 +85,47 @@ function bfs() {
     return NOT FOUND
 }
 ```
-For some problems, you may need to
+For binary trees, a BFS could be like:
+```python
+class Solution:
+    def bfs(k):
+        # use a double-ended queue, which is more time efficient
+        queue = collections.deque([root])
+        
+        while queue:
+            node = queue.popleft()
+            
+            if (node IS TARGET) return node
+            if node.right:
+                queue.append(node.right)
+            if node.left:
+                queue.append(node.left)
+        return -1
+```
+For some problems, you may need to track the level of trees when implementing a BFS:
+```python
+class Solution:
+    def bfs(k):
+    	# use a double-ended queue, which is more time efficient
+        queue = collections.deque([root])
+        # record steps
+        steps = 0
+        # use an array to store target nodes
+        ans = []
+	
+        while queue:
+            size = len(queue)
+            # traverse all nodes in the current step
+            for _ in range(size):
+                node = queue.popleft()
+                if (step == k) ans.append(node)
+                if node.right:
+                    queue.append(node.right)
+                if node.left:
+                    queue.append(node.left)
+            # update step to the next by + 1
+            steps += 1
+        return ans
+```
+
+## Common Types of P
