@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b8f62d-80e8-4af7-b54e-baab0aff775d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tree/98_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/863_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/863_solution.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +64,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree/98_solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tree/105_solution.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -116,10 +123,11 @@
         <option value="$PROJECT_DIR$/Tree/669_solution.py" />
         <option value="$PROJECT_DIR$/Tree/863_solution.py" />
         <option value="$PROJECT_DIR$/Tree/98_solution.py" />
+        <option value="$PROJECT_DIR$/Tree/105_solution.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="28" />
     <option name="width" value="1440" />
     <option name="height" value="872" />
@@ -301,7 +309,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612943078080</updated>
       <workItem from="1612943084023" duration="3000" />
-      <workItem from="1612943112527" duration="13531000" />
+      <workItem from="1612943112527" duration="14020000" />
     </task>
     <task id="LOCAL-00001" summary="Uploaded solutions">
       <created>1613395478640</created>
@@ -331,11 +339,18 @@
       <option name="project" value="LOCAL" />
       <updated>1613463273135</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Uploaded solutions">
+      <created>1613484120290</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613484120290</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13534000" />
+    <option name="totallyTimeSpent" value="14023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,8 +362,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1440" height="872" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="28" width="1440" height="872" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -578,6 +592,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tree/98_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/105_solution.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
