@@ -136,6 +136,14 @@ There are three commom types of problems.
 - Can be solved by DFS and BFS, sometimes with the help of single/ double recursions.
 
 **2. Construct Trees**
-- For example, [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- For example, [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) :arrow_right: [SOLUTION](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/105_solution.py)
 
 **3. Modify Trees**
+
+## Four Important Definitions
+
+1. Binary Search Tree
+- 
+2. Complete Binary Tree
+3. Path
+4. Distance
