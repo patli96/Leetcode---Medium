@@ -134,5 +134,8 @@ There are three commom types of problems.
 
 **1. Search**
 - Can be solved by DFS and BFS, sometimes with the help of single/ double recursions.
+
 **2. Construct Trees**
+- For example, [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+
 **3. Modify Trees**
