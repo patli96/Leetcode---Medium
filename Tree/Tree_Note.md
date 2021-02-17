@@ -142,7 +142,7 @@ There are three commom types of problems.
 
 **3. Modify Trees**
 
-## Four Important Definitions
+## 4 Important Definitions
 
 **1. Binary Search Tree**
 
@@ -171,9 +171,9 @@ There are three commom types of problems.
 
 - E.g. [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) :arrow_right: [SOLUTION](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/863_solution.py)
 
-## 7 Techniques
+## 3 Techniques
 
-**1. Single/Double Recursion**
+### 1. Single/Double Recursion
 
 ***Double Recursion***:
 (a main DFS traversing all the nodes) + (an inner DFS doing the calculations)
@@ -188,15 +188,15 @@ def dfs_main(root):
     return dfs_inner(root) + dfs_main(root.left) + dfs_main(root.right)
 ```
 
-**2. Virtual Node**
+### 2. Virtual Node
 
 E.g. [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/), [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)
 
-**3. Parameter Extension**
+### 3. Parameter Extension
 
 Add extra parameters to a DFS or BFS algorithm based on problems.
 
-For example, adding a parameter to store each node's parent
+For example, adding a parameter to store each node's parent:
 ```python
 def dfs(root, parent):
     if not root: return
@@ -204,3 +204,25 @@ def dfs(root, parent):
     dfs(root.right, root)
 ```
 
+Adding a parameter to store the sum of paths:
+```python
+def dfs(root, path_sum):
+    if not root:
+        # you can get the sum of path from the root to a child here
+        return path_sum
+    dfs(root.left, path_sum + root.val)
+    dfs(root.right, path_sum + root.val)
+```
+
+Adding a parameter to store the path:
+```python
+def dfs(root, path):
+    if not root:
+        # you can get the path from the root to a child here
+        return path
+    path.append(root.val)
+    dfs(root.left, path)
+    dfs(root.right, path)
+    # Undo
+    path.pop()
+```
