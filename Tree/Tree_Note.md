@@ -169,6 +169,38 @@ There are three commom types of problems.
 
 4. Distance
 
-- E.g. [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) [SOLUTION](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/863_solution.py)
+- E.g. [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) :arrow_right: [SOLUTION](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/863_solution.py)
 
+## 7 Techniques
+
+**1. Single/Double Recursion**
+
+***Double Recursion***:
+(a main DFS traversing all the nodes) + (an inner DFS doing the calculations)
+
+```python
+def dfs_inner(root):
+    # If put your logic here, then it is a preorder traversal
+    dfs_inner(root.left)
+    dfs_inner(root.right)
+    # Or if put your logic here, then it is a postorder traversal
+def dfs_main(root):
+    return dfs_inner(root) + dfs_main(root.left) + dfs_main(root.right)
+```
+
+**2. Virtual Node**
+
+E.g. [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/), [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)
+
+**3. Parameter Extension**
+
+Add extra parameters to a DFS or BFS algorithm based on problems.
+
+For example, adding a parameter to store each node's parent
+```python
+def dfs(root, parent):
+    if not root: return
+    dfs(root.left, root)
+    dfs(root.right, root)
+```
 
