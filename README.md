@@ -53,11 +53,15 @@
 
 ## Tree
 
+***Some notes and summaries about Tree :point_right: [NOTES](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/Tree_Note.md)***
+
 98 - Validate Binary Search Tree [:link:](https://leetcode.com/problems/validate-binary-search-tree/)  **:warning: Inoder traversal**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/98_solution.py)
 
 105 - Construct Binary Tree from Preorder an Inorder Traversal [:link:](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/submissions/) **:warning: Preorder and inoder traversal (*Tree Construction*)**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/105_solution.py)
 
 116 - Populating Next Right Pointers in Each Node [:link:](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) **(*Tree Modification*)**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/116_solution.py)
+
+222 - Count Complete Tree Nodes [:link:](https://leetcode.com/problems/count-complete-tree-nodes/)  **:arrow_right: BFS with steps** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/222_solution.py)
 
 450 - Delete Node in a BST [:link:](https://leetcode.com/problems/delete-node-in-a-bst/) **:arrow_right: Successor, predecessor and recursion (*Tree Modification*) :warning: IMPORTANT**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/450_solution.py)
 
@@ -70,3 +74,8 @@
 894 - All Possible Full Binary Trees [:link:](https://leetcode.com/problems/all-possible-full-binary-trees/) **:arrow_right: Memorization and recursion (*Tree Construction*) :warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/894_solution.py)
 
 1008 - Construct Binary Search Tree from Preorder Traversal [:link:](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) **:arrow_right: Recursion (*Tree Construction*)** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/1008_solution.py)
+
+
+## Recursion and DP
+
+279 - Perfect Squares [:link:](https://leetcode.com/problems/perfect-squares/) [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/279_solution.py)
