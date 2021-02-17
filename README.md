@@ -55,6 +55,8 @@
 
 98 - Validate Binary Search Tree [:link:](https://leetcode.com/problems/validate-binary-search-tree/)  **:warning: Inoder traversal**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/98_solution.py)
 
+105 - Construct Binary Tree from Preorder an Inorder Traversal [:link:](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/submissions/) **:warning: Preorder and inoder traversal (*Tree Construction*)**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/105_solution.py)
+
 116 - Populating Next Right Pointers in Each Node [:link:](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) **(*Tree Modification*)**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/116_solution.py)
 
 450 - Delete Node in a BST [:link:](https://leetcode.com/problems/delete-node-in-a-bst/) **:arrow_right: Successor, predecessor and recursion (*Tree Modification*) :warning: IMPORTANT**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/450_solution.py)
