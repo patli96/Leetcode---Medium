@@ -128,4 +128,11 @@ class Solution:
         return ans
 ```
 
-## Common Types of P
+## Common Types of Problems
+
+There are three commom types of problems.
+
+**1. Search**
+- Can be solved by DFS and BFS, sometimes with the help of single/ double recursions.
+**2. Construct Trees**
+**3. Modify Trees**
