@@ -133,6 +133,96 @@ class Solution:
 There are three commom types of problems.
 
 **1. Search**
+
 - Can be solved by DFS and BFS, sometimes with the help of single/ double recursions.
+
 **2. Construct Trees**
+
+- For example, [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) :arrow_right: [SOLUTION](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/105_solution.py)
+
 **3. Modify Trees**
+
+## 4 Important Definitions
+
+**1. Binary Search Tree**
+
+- If the root has a left child, then all values in the left substree are smaller than root.val
+- If the root has a right child, then all values in the right substree are greater than root.val
+- No equal-values nodes
+- ***Successor***:	The smallest node after the current one.
+		One step right, and go left as far as you can.
+- ***Predecessor***:	The largest node before the current one.
+		One step left, and go right as far as you can.
+
+**2. Complete Binary Tree**
+
+- Give each node an index starting from 1, in this way: 
+	root.index = i
+	root.left.index = 2*i
+	root.right.index = 2*i + 1
+- Sometimes need a BFS with steps
+- ***Three pointers method***
+
+3. Path
+
+- Single/ double recursion
+
+4. Distance
+
+- E.g. [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) :arrow_right: [SOLUTION](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/863_solution.py)
+
+## 3 Techniques
+
+### 1. Single/Double Recursion
+
+***Double Recursion***:
+(a main DFS traversing all the nodes) + (an inner DFS doing the calculations)
+
+```python
+def dfs_inner(root):
+    # If put your logic here, then it is a preorder traversal
+    dfs_inner(root.left)
+    dfs_inner(root.right)
+    # Or if put your logic here, then it is a postorder traversal
+def dfs_main(root):
+    return dfs_inner(root) + dfs_main(root.left) + dfs_main(root.right)
+```
+
+### 2. Virtual Node
+
+E.g. [814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/), [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)
+
+### 3. Parameter Extension
+
+Add extra parameters to a DFS or BFS algorithm based on problems.
+
+For example, adding a parameter to store each node's parent:
+```python
+def dfs(root, parent):
+    if not root: return
+    dfs(root.left, root)
+    dfs(root.right, root)
+```
+
+Adding a parameter to store the sum of paths:
+```python
+def dfs(root, path_sum):
+    if not root:
+        # you can get the sum of path from the root to a child here
+        return path_sum
+    dfs(root.left, path_sum + root.val)
+    dfs(root.right, path_sum + root.val)
+```
+
+Adding a parameter to store the path:
+```python
+def dfs(root, path):
+    if not root:
+        # you can get the path from the root to a child here
+        return path
+    path.append(root.val)
+    dfs(root.left, path)
+    dfs(root.right, path)
+    # Undo
+    path.pop()
+```
