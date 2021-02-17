@@ -62,3 +62,27 @@ function dfs(root) {
 }
 ```
 :warning: Sometimes it may require to detect cycles, a visited list may be needed.
+
+
+## BFS
+
+A common BFS algorithm of trees could be like:
+```python
+const visited = {}
+function bfs() {
+	let q = new Queue()
+	q.push(INITIAL STATE)
+	while(q.length) {
+		let i = q.pop()
+        if (visited[i]) continue
+        if (i IS THE TARGET) return RESULT
+		for (NODES CAN BE REACHED FROM i) {
+			if (j IS VALID) {
+				q.push(j)
+			}
+		}
+    }
+    return NOT FOUND
+}
+```
+For some problems, you may need to
