@@ -143,7 +143,11 @@ There are three commom types of problems.
 ## Four Important Definitions
 
 1. Binary Search Tree
-- 
+- If the root has a left child, then all values in the left substree are smaller than root.val
+- If the root has a right child, then all values in the right substree are greater than root.val
+- No equal-values nodes
+- Successor: 	he smallest node after the current one.
+        	One step right, and go left as far as you can.
 2. Complete Binary Tree
 3. Path
 4. Distance
