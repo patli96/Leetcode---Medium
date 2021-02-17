@@ -165,6 +165,10 @@ There are three commom types of problems.
 
 3. Path
 
-- 
+- Single/ double recursion
 
-5. Distance
+4. Distance
+
+- E.g. [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) [SOLUTION](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/863_solution.py)
+
+
