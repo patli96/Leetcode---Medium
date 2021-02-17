@@ -42,7 +42,7 @@
 
 86 - Partition List [:link:](https://leetcode.com/problems/partition-list/) **:arrow_right: Two pointers approach**[Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/86_solution.py)
 
-92 - Reverse Linked List II [:link:](https://leetcode.com/problems/reverse-linked-list-ii/) **:warning: Important** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/92_solution.py)
+92 - Reverse Linked List II [:link:](https://leetcode.com/problems/reverse-linked-list-ii/) **:warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/92_solution.py)
 
 138 - Copy List with Random Pointer [:link:](https://leetcode.com/problems/copy-list-with-random-pointer/) **:arrow_right: Hash map and iteration** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Linked_List/138_solution.py)
 
@@ -53,14 +53,18 @@
 
 ## Tree
 
+98 - Validate Binary Search Tree [:link:](https://leetcode.com/problems/validate-binary-search-tree/)  **:warning: Inoder traversal**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/98_solution.py)
+
 116 - Populating Next Right Pointers in Each Node [:link:](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) **(*Tree Modification*)**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/116_solution.py)
 
-450 - Delete Node in a BST [:link:](https://leetcode.com/problems/delete-node-in-a-bst/) **:arrow_right: Successor, predecessor and recursion (*Tree Modification*)**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/450_solution.py)
+450 - Delete Node in a BST [:link:](https://leetcode.com/problems/delete-node-in-a-bst/) **:arrow_right: Successor, predecessor and recursion (*Tree Modification*) :warning: IMPORTANT**  [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/450_solution.py)
 
 654 - Maximum Binary Tree [:link:](https://leetcode.com/problems/maximum-binary-tree/) **:arrow_right: Recursion (*Tree Construction*)** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/654_solution.py)
 
-669 - Trim a BST [:link:](https://leetcode.com/problems/trim-a-binary-search-tree/) **:arrow_right: Recursion (*Tree Modification*)** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/669_solution.py)
+669 - Trim a BST [:link:](https://leetcode.com/problems/trim-a-binary-search-tree/) **:arrow_right: Recursion (*Tree Modification*) :warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/669_solution.py)
 
-894 - All Possible Full Binary Trees [:link:](https://leetcode.com/problems/all-possible-full-binary-trees/) **:arrow_right: Memorization and recursion (*Tree Construction*)** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/894_solution.py)
+863 - All Nodes Distance K in Binary Tree [:link:](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) **:arrow_right: Hash map to store parent nodes, recursion :warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/863_solution.py)
+
+894 - All Possible Full Binary Trees [:link:](https://leetcode.com/problems/all-possible-full-binary-trees/) **:arrow_right: Memorization and recursion (*Tree Construction*) :warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/894_solution.py)
 
 1008 - Construct Binary Search Tree from Preorder Traversal [:link:](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) **:arrow_right: Recursion (*Tree Construction*)** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/1008_solution.py)
