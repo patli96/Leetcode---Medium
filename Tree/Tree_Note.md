@@ -133,9 +133,11 @@ class Solution:
 There are three commom types of problems.
 
 **1. Search**
+
 - Can be solved by DFS and BFS, sometimes with the help of single/ double recursions.
 
 **2. Construct Trees**
+
 - For example, [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) :arrow_right: [SOLUTION](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Tree/105_solution.py)
 
 **3. Modify Trees**
@@ -143,17 +145,26 @@ There are three commom types of problems.
 ## Four Important Definitions
 
 **1. Binary Search Tree**
-	- If the root has a left child, then all values in the left substree are smaller than root.val
-	- If the root has a right child, then all values in the right substree are greater than root.val
-	- No equal-values nodes
-	- ***Successor***:	The smallest node after the current one.
-			One step right, and go left as far as you can.
-	- ***Predecessor***:	The largest node before the current one.
-        		One step left, and go right as far as you can.
+
+- If the root has a left child, then all values in the left substree are smaller than root.val
+- If the root has a right child, then all values in the right substree are greater than root.val
+- No equal-values nodes
+- ***Successor***:	The smallest node after the current one.
+		One step right, and go left as far as you can.
+- ***Predecessor***:	The largest node before the current one.
+		One step left, and go right as far as you can.
+
 **2. Complete Binary Tree**
-	- Give each node an index starting from 1, in this way: 
-		root.index = i
-		root.left.index = 2*i
-		root.right.index = 2*i + 1
+
+- Give each node an index starting from 1, in this way: 
+	root.index = i
+	root.left.index = 2*i
+	root.right.index = 2*i + 1
+- Sometimes need a BFS with steps
+- ***Three pointers method***
+
 3. Path
-4. Distance
+
+- 
+
+5. Distance
