@@ -39,4 +39,26 @@ stack.append((GRAY, node))
 
 ## DFS
 
-Since us
+Since usually there is no cycle in a tree, a DFS could be like:
+```python
+function dfs(root) {
+	if (some conditions）{
+		// return or quit search
+	}
+	for (const child of root.children) {
+        dfs(child)
+	}
+}
+```
+
+For binary trees, it could be like:
+```python
+function dfs(root) {
+	if (some conditions）{
+		// return or quit
+	}
+    dfs(root.left)
+    dfs(root.right)
+}
+```
+:warning: Sometimes it may require to detect cycles, a visited list may be needed.
