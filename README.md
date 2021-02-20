@@ -79,3 +79,5 @@
 ## Recursion and DP
 
 279 - Perfect Squares [:link:](https://leetcode.com/problems/perfect-squares/) [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/279_solution.py)
+
+91 - Decode Ways [:link:](https://leetcode.com/problems/decode-ways/) **:arrow_right: DP + mathematcial observation :warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/91_solution.py)
