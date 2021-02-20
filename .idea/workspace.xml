@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b8f62d-80e8-4af7-b54e-baab0aff775d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Recursion_and_DP/279_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/222_solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion_and_DP/91_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Leetcode___Medium$143_solution.coverage" NAME="143_solution Coverage Results" MODIFIED="1613393579378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linked_List" />
+    <SUITE FILE_PATH="coverage/Leetcode___Medium$91_solution.coverage" NAME="91_solution Coverage Results" MODIFIED="1613821468148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recursion_and_DP" />
     <SUITE FILE_PATH="coverage/Leetcode___Medium$669_solution.coverage" NAME="669_solution Coverage Results" MODIFIED="1613458816795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tree" />
     <SUITE FILE_PATH="coverage/Leetcode___Medium$142_solution.coverage" NAME="142_solution Coverage Results" MODIFIED="1613051491393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linked_List" />
     <SUITE FILE_PATH="coverage/Leetcode___Medium$279_solution.coverage" NAME="279_solution Coverage Results" MODIFIED="1613564984890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recursion_and_DP" />
@@ -40,11 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Recursion_and_DP/279_solution.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Recursion_and_DP/91_solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -97,10 +106,11 @@
         <option value="$PROJECT_DIR$/Tree/105_solution.py" />
         <option value="$PROJECT_DIR$/Tree/222_solution.py" />
         <option value="$PROJECT_DIR$/Recursion_and_DP/279_solution.py" />
+        <option value="$PROJECT_DIR$/Recursion_and_DP/91_solution.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="28" />
     <option name="width" value="1440" />
     <option name="height" value="872" />
@@ -120,6 +130,11 @@
             <path>
               <item name="Leetcode---Medium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode---Medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode---Medium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode---Medium" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursion_and_DP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.279_solution">
+  <component name="RunManager" selected="Python.91_solution">
     <configuration name="116_solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode---Medium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,28 +175,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tree/116_solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="143_solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode---Medium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linked_List" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linked_List/143_solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,13 +249,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="91_solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode---Medium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Recursion_and_DP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Recursion_and_DP/91_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.91_solution" />
         <item itemvalue="Python.279_solution" />
         <item itemvalue="Python.669_solution" />
         <item itemvalue="Python.116_solution" />
         <item itemvalue="Python.654_solution" />
-        <item itemvalue="Python.143_solution" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +292,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612943078080</updated>
       <workItem from="1612943084023" duration="3000" />
-      <workItem from="1612943112527" duration="16039000" />
+      <workItem from="1612943112527" duration="18442000" />
     </task>
     <task id="LOCAL-00001" summary="Uploaded solutions">
       <created>1613395478640</created>
@@ -321,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1613536494818</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Uploaded solutions">
+      <created>1613567098229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613567098229</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16042000" />
+    <option name="totallyTimeSpent" value="18445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,7 +359,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1440" height="872" extended-state="6" />
+    <frame x="0" y="28" width="1440" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
@@ -592,6 +614,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recursion_and_DP/91_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
