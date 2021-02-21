@@ -21,8 +21,8 @@ Explanation: transactions = [buy, sell, cooldown, buy, sell]
 For this problem, we are going to create tow arrays to represent two states - buy-in and selling.
 
 Explanation of *i* th element in both array:
-- **buy[*i*]** indicates the maximum profits at the end of day *i*, and the last action taken was buying in
-- **sell[*i*]** indicates the maximum profits at the end of day *i*, and the last action taken was selling
+- **```buy[i]```** indicates the maximum profits at the end of day *i*, and the last action taken was buying in
+- **```sell[i]```** indicates the maximum profits at the end of day *i*, and the last action taken was selling
 
 
 According to the description of this problem, we can know that:
