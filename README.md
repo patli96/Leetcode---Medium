@@ -78,9 +78,12 @@
 
 ## Recursion and DP
 
-279 - Perfect Squares [:link:](https://leetcode.com/problems/perfect-squares/) [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/279_solution.py)
-
 91 - Decode Ways [:link:](https://leetcode.com/problems/decode-ways/) **:arrow_right: DP + mathematcial observation :warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/91_solution.py)
 
 139 - Word Break [:link:](https://leetcode.com/problems/word-break/) **:arrow_right: DP + double for-loop** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/String/139_solution.py)
-91 - Decode Ways [:link:](https://leetcode.com/problems/decode-ways/) **:arrow_right: DP + mathematcial observation :warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/91_solution.py)
+
+198 - House Robber [:link:](https://leetcode.com/problems/house-robber/) [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/String/198_solution.py)
+
+279 - Perfect Squares [:link:](https://leetcode.com/problems/perfect-squares/) [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/279_solution.py)
+
+309 - Best Time to Buy and Sell Stock with Cooldown []
