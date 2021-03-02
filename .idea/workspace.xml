@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b8f62d-80e8-4af7-b54e-baab0aff775d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Recursion_and_DP/416_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion_and_DP/aaaa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion_and_DP/bbb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion_and_DP/518_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,15 +65,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Recursion_and_DP/aaaa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Recursion_and_DP/416_solution.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -84,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Recursion_and_DP/bbb.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Recursion_and_DP/518_solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            <state relative-caret-position="285">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -153,6 +142,7 @@
         <option value="$PROJECT_DIR$/Recursion_and_DP/bbb.py" />
         <option value="$PROJECT_DIR$/Recursion_and_DP/aaaa.py" />
         <option value="$PROJECT_DIR$/Recursion_and_DP/416_solution.py" />
+        <option value="$PROJECT_DIR$/Recursion_and_DP/518_solution.py" />
       </list>
     </option>
   </component>
@@ -338,7 +328,7 @@
       <updated>1612943078080</updated>
       <workItem from="1612943084023" duration="3000" />
       <workItem from="1612943112527" duration="47279000" />
-      <workItem from="1614568494627" duration="2674000" />
+      <workItem from="1614568494627" duration="3875000" />
     </task>
     <task id="LOCAL-00001" summary="Uploaded solutions">
       <created>1613395478640</created>
@@ -410,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1613916835562</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Uploaded solutions">
+      <created>1614681201113</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614681201116</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49956000" />
+    <option name="totallyTimeSpent" value="51157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,6 +743,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recursion_and_DP/518_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
