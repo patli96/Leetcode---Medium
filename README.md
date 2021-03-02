@@ -89,3 +89,5 @@
 309 - Best Time to Buy and Sell Stock with Cooldown [:link:](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) **:arrow_right: DP + mathematcial observation :warning: IMPORTANT** [NOTES + SOLUTION](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/309_solution.md)
 
 322 - Coin Change [:link:](https://leetcode.com/problems/coin-change/) **:warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/322_solution.py)
+
+416 - Partition Equal Subset Sum [:link:](https://leetcode.com/problems/partition-equal-subset-sum/) **:arrow_right: DP construction** **:warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/416_solution.py)
