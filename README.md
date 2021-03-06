@@ -93,3 +93,11 @@
 416 - Partition Equal Subset Sum [:link:](https://leetcode.com/problems/partition-equal-subset-sum/) **:arrow_right: DP construction** **:warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/416_solution.py)
 
 518 - Coin Change 2 [:link:](https://leetcode.com/problems/coin-change-2/) **:arrow_right: DP construction** **:warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Recursion_and_DP/518_solution.py)
+
+
+
+## Disjoint Set
+
+547 - Number of Provinces [:link:](https://leetcode.com/problems/number-of-provinces/) [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Disjoint_Set/547_solution.py)
+
+721 - Accounts Merge [:link:](https://leetcode.com/problems/accounts-merge/) **:warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Disjoint_Set/721_solution.py)
