@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12b8f62d-80e8-4af7-b54e-baab0aff775d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Disjoint_Set/aaa.py" afterDir="false" />
-    </list>
+    <list default="true" id="12b8f62d-80e8-4af7-b54e-baab0aff775d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Disjoint_Set/aaa.py">
+        <entry file="file://$PROJECT_DIR$/Algorithms/sorting_algorithms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -127,12 +125,12 @@
             <path>
               <item name="Leetcode---Medium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode---Medium" type="462c0819:PsiDirectoryNode" />
-              <item name="Disjoint_Set" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode---Medium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode---Medium" type="462c0819:PsiDirectoryNode" />
-              <item name="Images" type="462c0819:PsiDirectoryNode" />
+              <item name="Disjoint_Set" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Leetcode---Medium" type="b2602c69:ProjectViewProjectNode" />
@@ -153,6 +151,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Algorithms" />
+      <recent name="$PROJECT_DIR$/Algorithms/imgaes" />
       <recent name="$PROJECT_DIR$/Images" />
       <recent name="$PROJECT_DIR$/Disjoint_Set" />
     </key>
@@ -302,7 +302,7 @@
       <updated>1612943078080</updated>
       <workItem from="1612943084023" duration="3000" />
       <workItem from="1612943112527" duration="47279000" />
-      <workItem from="1614568494627" duration="14297000" />
+      <workItem from="1614568494627" duration="14721000" />
     </task>
     <task id="LOCAL-00001" summary="Uploaded solutions">
       <created>1613395478640</created>
@@ -416,11 +416,18 @@
       <option name="project" value="LOCAL" />
       <updated>1615012462835</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Uploaded solutions">
+      <created>1615013935598</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615013935598</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61579000" />
+    <option name="totallyTimeSpent" value="62003000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,14 +440,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46506023" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46506023" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -790,10 +796,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Disjoint_Set/aaa.py">
+    <entry file="file://$PROJECT_DIR$/Algorithms/sorting_algorithms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
