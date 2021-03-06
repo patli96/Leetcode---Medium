@@ -119,5 +119,22 @@ Merge Sort is a Divide and Conquer algorithm.
 It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves. 
 The major portion of the algorithm is given two sorted arrays, and we have to merge them into a single sorted array.
 
-#### GI
+#### GIF Explanation
+
+![merge sort](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/merge_sort.gif)
+
+![merge sort explanation](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/merge_sort.png)
+
+#### Properties
+
+- Space Complexity: ```O(n)```
+
+- Average Time Complexity : ```O(n*log(n))```
+
+- Best Case Performance: ```O(n*log(n))```
+
+- Worst Case Performance: ```O(n**2)```
+
+- Stable: Yes
+
 
