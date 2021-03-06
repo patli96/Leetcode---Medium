@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b8f62d-80e8-4af7-b54e-baab0aff775d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Recursion_and_DP/547_solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Disjoint_Set/990_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +84,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Recursion_and_DP/547_solution.py">
+        <entry file="file://$PROJECT_DIR$/Disjoint_Set/547_solution.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="591">
               <caret line="57" selection-start-line="57" selection-end-line="57" />
@@ -92,9 +92,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Disjoint_Set/721_solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Recursion_and_DP/721_solution.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Disjoint_Set/990_solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -161,6 +174,7 @@
         <option value="$PROJECT_DIR$/Recursion_and_DP/gpa.txt" />
         <option value="$PROJECT_DIR$/Recursion_and_DP/547_solution.py" />
         <option value="$PROJECT_DIR$/Recursion_and_DP/721_solution.py" />
+        <option value="$PROJECT_DIR$/Disjoint_Set/990_solution.py" />
       </list>
     </option>
   </component>
@@ -187,6 +201,11 @@
             <path>
               <item name="Leetcode---Medium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode---Medium" type="462c0819:PsiDirectoryNode" />
+              <item name="Disjoint_Set" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode---Medium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode---Medium" type="462c0819:PsiDirectoryNode" />
               <item name="Recursion_and_DP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -200,6 +219,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Disjoint_Set" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -346,7 +370,7 @@
       <updated>1612943078080</updated>
       <workItem from="1612943084023" duration="3000" />
       <workItem from="1612943112527" duration="47279000" />
-      <workItem from="1614568494627" duration="9908000" />
+      <workItem from="1614568494627" duration="11230000" />
     </task>
     <task id="LOCAL-00001" summary="Uploaded solutions">
       <created>1613395478640</created>
@@ -432,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1614683950889</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Uploaded solutions">
+      <created>1614859594104</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614859594106</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57190000" />
+    <option name="totallyTimeSpent" value="58512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,6 +480,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19098713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -784,15 +816,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recursion_and_DP/547_solution.py">
+    <entry file="file://$PROJECT_DIR$/Disjoint_Set/547_solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recursion_and_DP/721_solution.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Disjoint_Set/721_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Disjoint_Set/990_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
