@@ -101,3 +101,5 @@
 547 - Number of Provinces [:link:](https://leetcode.com/problems/number-of-provinces/) [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Disjoint_Set/547_solution.py)
 
 721 - Accounts Merge [:link:](https://leetcode.com/problems/accounts-merge/) **:warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Disjoint_Set/721_solution.py)
+
+990 - Satisfiability of Equality Equations [:link:](https://leetcode.com/problems/satisfiability-of-equality-equations/) **:warning: IMPORTANT** [Solution](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Disjoint_Set/990_solution.py)
