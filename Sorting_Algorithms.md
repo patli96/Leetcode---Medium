@@ -110,5 +110,14 @@ def insertionSort(arr):
         arr[j + 1] = key
     return arr
 ```
+<br/><br/>
 
+
+### 4. Merge Sort
+
+Merge Sort is a Divide and Conquer algorithm. 
+It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves. 
+The major portion of the algorithm is given two sorted arrays, and we have to merge them into a single sorted array.
+
+#### GI
 
