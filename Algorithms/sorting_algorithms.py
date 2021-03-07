@@ -1,3 +1,5 @@
+import random
+
 def bubbleSort(arr):
     n = len(arr)
     for i in range(n):
@@ -29,5 +31,39 @@ def insertionSort(arr):
         arr[j + 1] = key
     return arr
 
-arr = [42, 20, 17, 13, 28, 14, 23, 15]
-print(insertionSort(arr))
+
+def mergeSort(arr):
+    n = len(arr)
+    if n < 2:
+        return arr
+    ret = []
+    mid = int(n/2)
+    left = mergeSort(arr[:mid])
+    right = mergeSort(arr[mid:])
+    while len(left) > 0 and len(right) > 0:
+        if left[0] < right[0]:
+            ret.append(left[0])
+            left.pop(0)
+        else:
+            ret.append(right[0])
+            right.pop(0)
+    ret += left
+    ret += right
+    return ret
+
+
+def quickSort(arr):
+    n = len(arr)
+    if n < 2:
+        return arr
+    pivot = arr[0]
+    left = [item for item in arr if item < pivot]
+    mid = [item for item in arr if item == pivot]
+    right = [item for item in arr if item > pivot]
+    ret = quickSort(left) + mid + quickSort(right)
+    return ret
+
+
+a = [random.randint(0, 100) for i in range(20)]
+print(a)
+print(quickSort(a))
