@@ -119,5 +119,103 @@ Merge Sort is a Divide and Conquer algorithm.
 It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves. 
 The major portion of the algorithm is given two sorted arrays, and we have to merge them into a single sorted array.
 
-#### GI
+#### GIF Explanation
+
+![merge sort](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/merge_sort.gif)
+
+![merge sort explanation](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/merge_sort.png)
+
+#### Properties
+
+- Space Complexity: ```O(n)```
+
+- Average Time Complexity : ```O(n*log(n))```
+
+- Best Case Performance: ```O(n*log(n))```
+
+- Worst Case Performance: ```O(n*log(n))```
+
+- Stable: Yes
+
+#### Code
+
+```python3
+def mergeSort(arr):
+    n = len(arr)
+    if n < 2:
+        return arr
+    ret = []
+    mid = int(n/2)
+    left = mergeSort(arr[:mid])
+    right = mergeSort(arr[mid:])
+    while len(left) > 0 and len(right) > 0:
+        if left[0] < right[0]:
+            ret.append(left[0])
+            left.pop(0)
+        else:
+            ret.append(right[0])
+            right.pop(0)
+    ret += left
+    ret += right
+    return ret
+```
+<br/><br/>
+
+
+### 5. Quick Sort
+
+Quick sort is an efficient divide and conquer sorting algorithm.
+
+The steps involved in Quick Sort are:
+- Choose an element to serve as a pivot, in this case, the last element of the array is the pivot.
+- Partitioning: Sort the array in such a manner that all elements less than the pivot are to the left, and all elements greater than the pivot are to the right.
+- Call Quicksort recursively, taking into account the previous pivot to properly subdivide the left and right arrays. 
+
+#### GIF Explanation
+
+![quick sort](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/quick_sort.gif)
+
+#### Properties
+
+- Space Complexity: ```O(n*log(n))```
+
+- Average Time Complexity : ```O(n*log(n))```
+
+- Best Case Performance: ```O(n*log(n))```
+
+- Worst Case Performance: ```O(n**2)```
+
+- Stable: No
+
+#### Code
+
+```python3
+def quickSort(arr):
+    n = len(arr)
+    if n < 2:
+        return arr
+    pivot = arr[0]
+    left = [item for item in arr if item < pivot]
+    mid = [item for item in arr if item == pivot]
+    right = [item for item in arr if item > pivot]
+    ret = quickSort(left) + mid + quickSort(right)
+    return ret
+```
+<br/><br/>
+
+
+### 6. Heap Sort
+
+Heap is a special **complete binary tree**.
+In this way, given an index ```i``` of a node, we can calculate:
+- its parent node: ```idx = floor(i / 2)```
+- its right child: ```idx = 2 * i```
+- its left child: ```idx = 2 * i + 1```
+
+![heap](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/heap.jpg)
+
+There are two kinds of binary heaps:
+1. Max Heap - value in a parent node is greater than the values in its two children nodes
+2. Min Heap - value in a parent node is smaller than the values in its two children nodes
+
 
