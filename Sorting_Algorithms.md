@@ -391,3 +391,44 @@ def bucketSort(arr):
             arr.append(item)
 ```
 <br/><br/>
+
+
+### 10. Radix Sort
+
+Do following for each digit i where i varies from least significant digit to the most significant digit:
+
+- Sort input array using counting sort (or any stable sort) according to the i’th digit.
+
+#### GIF Explanation
+
+![radix sort](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/radix_sort.gif)
+
+#### Properties
+
+- Space Complexity: ```O(n + k)```
+
+- Average Time Complexity : ```O(n*k)```
+
+- Best Case Performance: ```O(n*k)```
+
+- Worst Case Performance: ```O(n*k)```
+
+- Stable: Yes
+
+#### Code
+
+```python3
+def radixSort(arr):
+    n = len(arr)
+    max_number_len = len(str(max(arr)))
+    # max_number_len rounds of sorting
+    for i in range(max_number_len):
+        # create a bucket from 0 to 9
+        bucket_list = [[] for _ in range(10)]
+        for item in arr:
+            bucket_list[item//(10**i) % 10].append(item)
+        # put items back to the array
+        arr = [item for bucket in bucket_list for item in bucket]
+    return arr
+
+```
