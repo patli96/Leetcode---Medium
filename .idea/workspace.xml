@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12b8f62d-80e8-4af7-b54e-baab0aff775d" name="Default Changelist" comment="Uploaded images">
+    <list default="true" id="12b8f62d-80e8-4af7-b54e-baab0aff775d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/sorting_algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/sorting_algorithms.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithms/sorting_algorithms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="110" selection-start-line="110" selection-end-line="122" selection-end-column="26" />
+            <state relative-caret-position="175">
+              <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -312,7 +311,7 @@
       <updated>1612943078080</updated>
       <workItem from="1612943084023" duration="3000" />
       <workItem from="1612943112527" duration="47279000" />
-      <workItem from="1614568494627" duration="23289000" />
+      <workItem from="1614568494627" duration="25374000" />
     </task>
     <task id="LOCAL-00001" summary="Uploaded solutions">
       <created>1613395478640</created>
@@ -503,11 +502,25 @@
       <option name="project" value="LOCAL" />
       <updated>1615185503865</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Uploaded images">
+      <created>1615187243228</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1615187243229</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Uploaded images">
+      <created>1615205562863</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1615205562863</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70571000" />
+    <option name="totallyTimeSpent" value="72656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -897,8 +910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/sorting_algorithms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="110" selection-start-line="110" selection-end-line="122" selection-end-column="26" />
+        <state relative-caret-position="175">
+          <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
         </state>
       </provider>
     </entry>
