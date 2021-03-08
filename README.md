@@ -1,5 +1,9 @@
 # Leetcode---Medium
 
+## 10 Common Sorting Algorithms
+
+[Summary and Note](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Sorting_Algorithms.md)
+
 ## Array
 
 
