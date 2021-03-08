@@ -103,7 +103,27 @@ def heapSort(arr):
         heapify(arr, i, 0)
 
 
+# a = [random.randint(0, 100) for i in range(20)]
+# heapSort(a)
+# print(a)
+
+''' Shell Sort'''
+def shellSort(arr):
+    n = len(arr)
+    gap = int(n / 2)    # start with a big gap
+
+    while gap > 0:
+        for i in range(gap, n):
+            key = arr[i]
+            j = i
+            while j >= gap and arr[j-gap] > key:
+                arr[j] = arr[j - gap]
+                j -= gap
+            arr[j] = key
+        gap = int(gap / 2)
+
+
 a = [random.randint(0, 100) for i in range(20)]
 print(a)
-heapSort(a)
+shellSort(a)
 print(a)
