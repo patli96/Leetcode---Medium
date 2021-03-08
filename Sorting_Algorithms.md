@@ -2,6 +2,8 @@
 
 ## Summary
 
+![summary](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/summary.png)
+
 ## 10 Sorting Algorithms with examples
 
 ### 1. Bubble Sort
