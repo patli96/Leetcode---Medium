@@ -231,27 +231,39 @@ The steps involved in Heap Sort are:
 ```python3
 import random
 
+
 def heapify(arr, n, i):
-    max_val = i
+    max_val = i # initialize the largest value as root
     l = 2 * i + 1   # left child idx
     r = 2 * i + 2   # right child idx
+
+    # See if left child of root exists and is greater than the root
     if l < n and arr[i] < arr[l]:
         max_val = l
+    # See if right child of root exists and is greater than the root
     if r < n and arr[max_val] < arr[r]:
         max_val = r
+
+    # swap the root, if needed
     if max_val != i:
         arr[i], arr[max_val] = arr[max_val], arr[i]
+
+        # heapify the root
         heapify(arr, n, max_val)
+
+
 
 def heapSort(arr):
     n = len(arr)
-    # build a heap
+
+    # build a max-heap
     for i in range(n, -1, -1):
         heapify(arr, n, i)
     # swap elements
     for i in range(n-1, 0, -1):
         arr[i], arr[0] = arr[0], arr[i]
         heapify(arr, i, 0)
+
 
 a = [random.randint(0, 100) for i in range(20)]
 heapSort(a)
