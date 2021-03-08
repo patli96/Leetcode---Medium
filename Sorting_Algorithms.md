@@ -218,4 +218,42 @@ There are two kinds of binary heaps:
 1. Max Heap - value in a parent node is greater than the values in its two children nodes
 2. Min Heap - value in a parent node is smaller than the values in its two children nodes
 
+The steps involved in Heap Sort are:
+1. Build Max Heap (or Min Heap);
+2. Adjust the heap;
+3. Heap Sort.
 
+#### GIF Explanation
+
+![heap sort](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/heap_sort.gif)
+
+#### Code
+```python3
+import random
+
+def heapify(arr, n, i):
+    max_val = i
+    l = 2 * i + 1   # left child idx
+    r = 2 * i + 2   # right child idx
+    if l < n and arr[i] < arr[l]:
+        max_val = l
+    if r < n and arr[max_val] < arr[r]:
+        max_val = r
+    if max_val != i:
+        arr[i], arr[max_val] = arr[max_val], arr[i]
+        heapify(arr, n, max_val)
+
+def heapSort(arr):
+    n = len(arr)
+    # build a heap
+    for i in range(n, -1, -1):
+        heapify(arr, n, i)
+    # swap elements
+    for i in range(n-1, 0, -1):
+        arr[i], arr[0] = arr[0], arr[i]
+        heapify(arr, i, 0)
+
+a = [random.randint(0, 100) for i in range(20)]
+heapSort(a)
+print(a)
+```
