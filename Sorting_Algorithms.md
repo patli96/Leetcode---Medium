@@ -227,6 +227,18 @@ The steps involved in Heap Sort are:
 
 ![heap sort](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/heap_sort.gif)
 
+#### Properties
+
+- Space Complexity: ```O(1)```
+
+- Average Time Complexity : ```O(n*log(n))```
+
+- Best Case Performance: ```O(n*log(n))```
+
+- Worst Case Performance: ```O(n**2)```
+
+- Stable: No
+
 #### Code
 ```python3
 import random
@@ -269,3 +281,113 @@ a = [random.randint(0, 100) for i in range(20)]
 heapSort(a)
 print(a)
 ```
+<br/><br/>
+
+
+### 7. Shell Sort
+
+Shell Sort algorithm is an improved version of Insertion Sort algorithm.
+
+#### GIF Explanation
+
+![shell sort](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/shell_sort.gif)
+
+#### Properties
+
+- Space Complexity: ```O(1)```
+
+- Average Time Complexity : ```O(n**1.3)```
+
+- Best Case Performance: ```O(n)```
+
+- Worst Case Performance: ```O(n**2)```
+
+- Stable: No
+
+#### Code
+```python3
+def shellSort(arr):
+    n = len(arr)
+    gap = int(n / 2)    # start with a big gap
+
+    while gap > 0:
+        for i in range(gap, n):
+            key = arr[i]
+            j = i
+            while j >= gap and arr[j-gap] > key:
+                arr[j] = arr[j - gap]
+                j -= gap
+            arr[j] = key
+        gap = int(gap / 2)
+```
+<br/><br/>
+
+
+### 8. Counting Sort
+
+#### GIF Explanation
+
+![counting sort](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/counting_sort.gif)
+
+#### Properties
+
+- Space Complexity: ```O(n + k)```
+
+- Average Time Complexity : ```O(n + k)```
+
+- Best Case Performance: ```O(n + k)```
+
+- Worst Case Performance: ```O(n + k)```
+
+- Stable: Yes
+
+(```k``` is the number of distinct elements in the array)
+
+<br/><br/>
+
+
+### 9. Bucket Sort
+
+Bucket Sort is a comparison sort algorithm that operates on elements by dividing them into different buckets and then sorting these buckets individually. 
+Each bucket is sorted individually using a separate sorting algorithm or by applying the bucket sort algorithm recursively.
+
+#### GIF Explanation
+
+![bucket sort](https://github.com/xxicypatxx/Leetcode---Medium/blob/main/Algorithms/imgaes/bucket_sort.gif)
+
+#### Properties
+
+- Space Complexity: ```O(n + k)```
+
+- Average Time Complexity : ```O(n + k)```
+
+- Best Case Performance: ```O(n)```
+
+- Worst Case Performance: ```O(n**2)```
+
+- Stable: Yes
+
+#### Code
+
+```python3
+def bucketSort(arr):
+
+    n = len(arr)
+    min_val = min(arr)
+    max_val = max(arr)
+
+    # calculate the size of the bucket
+    bucket_range = (max_val - min_val) / n
+    count_list = [[] for i in range(n + 1)]
+    
+    # loop the array and put items into each bucket
+    for item in arr:
+        count_list[int((item - min_val)//bucket_range)].append(item)
+    # clear the array
+    arr.clear()
+    # put items in the bucket back to the array
+    for bucket in count_list:
+        for item in sorted(bucket):
+            arr.append(item)
+```
+<br/><br/>
