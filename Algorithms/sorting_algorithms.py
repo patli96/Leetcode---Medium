@@ -144,6 +144,21 @@ def bucketSort(arr):
             arr.append(item)
 
 
+''' Radix Sort'''
+def radixSort(arr):
+    n = len(arr)
+    max_number_len = len(str(max(arr)))
+    # max_number_len rounds of sorting
+    for i in range(max_number_len):
+        # create a bucket from 0 to 9
+        bucket_list = [[] for _ in range(10)]
+        for item in arr:
+            bucket_list[item//(10**i) % 10].append(item)
+        # put items back to the array
+        arr = [item for bucket in bucket_list for item in bucket]
+    return arr
+
+
 a = [random.randint(0, 100) for i in range(20)]
 print(a)
 shellSort(a)
