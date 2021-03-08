@@ -123,6 +123,27 @@ def shellSort(arr):
         gap = int(gap / 2)
 
 
+''' Bucket Sort'''
+def bucketSort(arr):
+    n = len(arr)
+    min_val = min(arr)
+    max_val = max(arr)
+
+    # calculate the size of the bucket
+    bucket_range = (max_val - min_val) / n
+    count_list = [[] for i in range(n + 1)]
+
+    # loop the array and put items into each bucket
+    for item in arr:
+        count_list[int((item - min_val)//bucket_range)].append(item)
+    # clear the array
+    arr.clear()
+    # put items in the bucket back to the array
+    for bucket in count_list:
+        for item in sorted(bucket):
+            arr.append(item)
+
+
 a = [random.randint(0, 100) for i in range(20)]
 print(a)
 shellSort(a)
