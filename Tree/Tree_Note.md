@@ -22,6 +22,23 @@ class Solution:
                 res.append(node.val)
         return res
 ```
+***Non-iterative inorder traversal***
+```python
+stack = []
+res = []
+ptr = root
+while ptr or stack:
+    # push all the left nodes into the stack
+    while ptr:
+	stack.append(ptr)
+	ptr = ptr.left
+    # Done searching for left children
+    ptr = stack.pop()
+    res.append(ptr.val)
+    # Start searching for right children
+    ptr = ptr.right
+return res
+```
 
 For ***preorder traversal***:
 ```python
