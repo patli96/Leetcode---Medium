@@ -6,6 +6,10 @@
 
 ## Array
 
+1562 - Find Latest Group of Size M [:link:](https://leetcode.com/problems/find-latest-group-of-size-m/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Array/1562_solution.py)
+
+
+
 
 ## String
 
@@ -112,5 +116,5 @@
 
 ## Graph
 
-130 - Surrounded Regions [:link](https://leetcode.com/problems/surrounded-regions/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Graph/130_solution.py)
+130 - Surrounded Regions [:link:](https://leetcode.com/problems/surrounded-regions/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Graph/130_solution.py)
 
