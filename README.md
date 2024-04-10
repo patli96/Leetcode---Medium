@@ -123,5 +123,8 @@
 
 ## Math
 
+313 - Super Ugly Number [:link:](https://leetcode.com/problems/super-ugly-number/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Math/313_solution.py)
+
+
 2249 - Count Lattice Points Inside a Circle [:link:](https://leetcode.com/problems/count-lattice-points-inside-a-circle/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Math/2249_solution.py)
 
