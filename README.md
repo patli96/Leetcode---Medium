@@ -84,6 +84,8 @@
 
 ## Recursion and DP
 
+39 - Combination Sum [:link:](https://leetcode.com/problems/combination-sum/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/39_solution.py)
+
 91 - Decode Ways [:link:](https://leetcode.com/problems/decode-ways/) **:arrow_right: DP + mathematcial observation :warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/91_solution.py)
 
 139 - Word Break [:link:](https://leetcode.com/problems/word-break/) **:arrow_right: DP + double for-loop** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/String/139_solution.py)
