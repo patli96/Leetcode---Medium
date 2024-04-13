@@ -9,8 +9,6 @@
 1562 - Find Latest Group of Size M [:link:](https://leetcode.com/problems/find-latest-group-of-size-m/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Array/1562_solution.py)
 
 
-
-
 ## String
 
 3 - Longest Substring Without Repeating Characters [:link:](https://leetcode.com/problems/longest-substring-without-repeating-characters/) **:arrow_right: Sliding window** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/String/3_solution.py)
@@ -103,7 +101,6 @@
 518 - Coin Change 2 [:link:](https://leetcode.com/problems/coin-change-2/) **:arrow_right: DP construction** **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/518_solution.py)
 
 
-
 ## Disjoint Set
 
 547 - Number of Provinces [:link:](https://leetcode.com/problems/number-of-provinces/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Disjoint_Set/547_solution.py)
@@ -113,18 +110,16 @@
 990 - Satisfiability of Equality Equations [:link:](https://leetcode.com/problems/satisfiability-of-equality-equations/) **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Disjoint_Set/990_solution.py)
 
 
-
 ## Graph
 
 130 - Surrounded Regions [:link:](https://leetcode.com/problems/surrounded-regions/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Graph/130_solution.py)
 
-
+1061 - Lexicographically Smallest Equivalent String [:link:](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Graph/1061_solution.py)
 
 
 ## Math
 
 313 - Super Ugly Number [:link:](https://leetcode.com/problems/super-ugly-number/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Math/313_solution.py)
-
 
 2249 - Count Lattice Points Inside a Circle [:link:](https://leetcode.com/problems/count-lattice-points-inside-a-circle/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Math/2249_solution.py)
 
