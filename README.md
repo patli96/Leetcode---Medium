@@ -69,6 +69,8 @@
 
 222 - Count Complete Tree Nodes [:link:](https://leetcode.com/problems/count-complete-tree-nodes/)  **:arrow_right: BFS with steps** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Tree/222_solution.py)
 
+404 - Sum of Left Leaves [:link:](https://leetcode.com/problems/sum-of-left-leaves/) **:arrow_right: DFS** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Tree/404_solution.py)
+
 450 - Delete Node in a BST [:link:](https://leetcode.com/problems/delete-node-in-a-bst/) **:arrow_right: Successor, predecessor and recursion (*Tree Modification*) :warning: IMPORTANT**  [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Tree/450_solution.py)
 
 654 - Maximum Binary Tree [:link:](https://leetcode.com/problems/maximum-binary-tree/) **:arrow_right: Recursion (*Tree Construction*)** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Tree/654_solution.py)
