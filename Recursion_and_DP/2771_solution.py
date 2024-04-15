@@ -23,7 +23,7 @@ class Solution:
             if not prev_number:
                 res = dp(
                     idx=idx + 1, 
-                    prev_number=prev
+                    prev_number=prev_number
                 )
             
             if prev_number <= nums1[idx]:
