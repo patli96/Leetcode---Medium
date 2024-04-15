@@ -106,6 +106,8 @@
 
 518 - Coin Change 2 [:link:](https://leetcode.com/problems/coin-change-2/) **:arrow_right: DP construction** **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/518_solution.py)
 
+2771 - Longest Non-decreasing Subarray From Two Arrays [:link:](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/) **:arrow_right: DP construction** **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/2771_solution.py)
+
 
 ## Disjoint Set
 
