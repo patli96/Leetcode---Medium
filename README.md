@@ -138,3 +138,10 @@
 
 2918 - Minimum Equal Sum of Two Arrays After Replacing Zeros [:link:](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Greedy/2918_solution.py)
 
+
+## Premium Questions
+
+1197 - Minimum Knight Moves [:link:](https://leetcode.com/problems/minimum-knight-moves) **:warning: IMPORTANT** [Question and Solution](https://github.com/patli96/Leetcode---Medium/blob/main/PremiumQuestion/2918.py)
+
+
+
