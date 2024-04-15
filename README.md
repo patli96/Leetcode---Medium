@@ -133,3 +133,8 @@
 
 2249 - Count Lattice Points Inside a Circle [:link:](https://leetcode.com/problems/count-lattice-points-inside-a-circle/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Math/2249_solution.py)
 
+
+## Greedy
+
+2918 - Minimum Equal Sum of Two Arrays After Replacing Zeros [:link:](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Greedy/2918_solution.py)
+
