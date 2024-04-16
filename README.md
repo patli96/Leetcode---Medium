@@ -100,7 +100,7 @@
 
 139 - Word Break [:link:](https://leetcode.com/problems/word-break/) **:arrow_right: DP + double for-loop** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/String/139_solution.py)
 
-198 - House Robber [:link:](https://leetcode.com/problems/house-robber/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/String/198_solution.py)
+198 - House Robber [:link:](https://leetcode.com/problems/house-robber/) **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/String/198_solution.py)
 
 279 - Perfect Squares [:link:](https://leetcode.com/problems/perfect-squares/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/279_solution.py)
 
@@ -111,6 +111,8 @@
 416 - Partition Equal Subset Sum [:link:](https://leetcode.com/problems/partition-equal-subset-sum/) **:arrow_right: DP construction** **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/416_solution.py)
 
 518 - Coin Change 2 [:link:](https://leetcode.com/problems/coin-change-2/) **:arrow_right: DP construction** **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/518_solution.py)
+
+740 - Delete and Earn [:link:](https://leetcode.com/problems/delete-and-earn/) **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/740_solution.py)
 
 2771 - Longest Non-decreasing Subarray From Two Arrays [:link:](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/) **:arrow_right: DP construction** **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/2771_solution.py)
 
