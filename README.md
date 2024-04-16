@@ -8,6 +8,8 @@
 
 15 - 3 Sum [:link:](https://leetcode.com/problems/3sum/) [Soultion](https://github.com/patli96/Leetcode---Medium/blob/main/Array/15_solution.py)
 
+150 - Evaluate Reverse Polish Notation [:link:](https://leetcode.com/problems/evaluate-reverse-polish-notation/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Array/150_solution.py)
+
 1562 - Find Latest Group of Size M [:link:](https://leetcode.com/problems/find-latest-group-of-size-m/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Array/1562_solution.py)
 
 
