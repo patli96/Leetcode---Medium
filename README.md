@@ -58,6 +58,8 @@
 
 143 - Reorder List [:link:](https://leetcode.com/problems/reorder-list/) **:arrow_right: Hash map and a little bit of maths** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Linked_List/143_solution.py)
 
+146 - LRU Cache [:link:](https://leetcode.com/problems/lru-cache/) **:arrow_right: Double linked list** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Linked_List/146_solution.py)
+
 
 ## Tree
 
