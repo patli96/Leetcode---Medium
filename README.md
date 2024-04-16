@@ -73,6 +73,8 @@
 
 116 - Populating Next Right Pointers in Each Node [:link:](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) **(*Tree Modification*)**  [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Tree/116_solution.py)
 
+117 - Populating Next Right Pointers in Each Node II [:link:](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Tree/117_solution.py)
+
 222 - Count Complete Tree Nodes [:link:](https://leetcode.com/problems/count-complete-tree-nodes/)  **:arrow_right: BFS with steps** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Tree/222_solution.py)
 
 404 - Sum of Left Leaves [:link:](https://leetcode.com/problems/sum-of-left-leaves/) **:arrow_right: DFS** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Tree/404_solution.py)
