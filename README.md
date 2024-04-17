@@ -43,6 +43,8 @@
 
 553 - Optimal Division [:link:](https://leetcode.com/problems/optimal-division/) **:arrow_right: Obervation** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/String/553_solution.py)
 
+1268 - Search Suggestions System [:link:](https://leetcode.com/problems/search-suggestions-system/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/String/1268_solution.py)
+
 
 ## Linked List
 
