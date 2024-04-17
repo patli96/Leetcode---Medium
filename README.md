@@ -114,6 +114,8 @@
 
 518 - Coin Change 2 [:link:](https://leetcode.com/problems/coin-change-2/) **:arrow_right: DP construction** **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/518_solution.py)
 
+647 - Palindromic Substrings [:link:](https://leetcode.com/problems/palindromic-substrings/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/647_solution.py)
+
 740 - Delete and Earn [:link:](https://leetcode.com/problems/delete-and-earn/) **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/740_solution.py)
 
 1048 - Longest String Chain [:link:](https://leetcode.com/problems/longest-string-chain/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/1048_solution.py)
