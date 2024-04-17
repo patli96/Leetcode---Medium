@@ -114,6 +114,8 @@
 
 740 - Delete and Earn [:link:](https://leetcode.com/problems/delete-and-earn/) **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/740_solution.py)
 
+1048 - Longest String Chain [:link:](https://leetcode.com/problems/longest-string-chain/) [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/1048_solution.py)
+
 1143 - Longest Common Subsequence [:link:](https://leetcode.com/problems/longest-common-subsequence/) **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/1143_solution.py)
 
 2771 - Longest Non-decreasing Subarray From Two Arrays [:link:](https://leetcode.com/problems/longest-non-decreasing-subarray-from-two-arrays/) **:arrow_right: DP construction** **:warning: IMPORTANT** [Solution](https://github.com/patli96/Leetcode---Medium/blob/main/Recursion_and_DP/2771_solution.py)
